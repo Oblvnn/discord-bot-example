@@ -12,6 +12,7 @@ Create a discord bot token [here](https://discordapp.com/developers/applications
 ```js
 client.login(config.token); //Replace "TOKEN_HERE" in config.json with your bots token.
 ```
+Config.json example
 ```json
 {
   "prefix" : "PREFIX_HERE",
