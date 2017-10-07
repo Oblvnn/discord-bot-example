@@ -10,7 +10,13 @@ $ npm install
 ```
 Create a discord bot token [here](https://discordapp.com/developers/applications/me) and replace it where you see **TOKEN_HERE**.
 ```js
-client.login(TOKEN_HERE); //Replace "TOKEN_HERE" with your bots token.
+client.login(config.token); //Replace "TOKEN_HERE" in config.json with your bots token.
+```
+```json
+{
+  "prefix" : "PREFIX_HERE",
+  "token" : "TOKEN_HERE"
+}
 ```
 Invite your bot to your discord server using the link given. Make sure to replace `<client-id>` with your bots [client id](https://discordapp.com/developers/applications/me). 
 ```
