@@ -20,3 +20,10 @@ To start your bot up, simply open up command prompt in your bots dir and then ty
 ```
 $ node app.js
 ```
+
+## Built with
+[Discord.js](https://discord.js.org/#/) - Node Module used.
+[Node](https://nodejs.org/) - Used to run node apps and modules.
+
+## Author
+- **OblivionSan** - [@OblivionSan](https://github.com/OblivionSan)
