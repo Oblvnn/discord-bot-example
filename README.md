@@ -12,7 +12,7 @@ Create a discord bot token [here](https://discordapp.com/developers/applications
 ```js
 client.login(TOKEN_HERE); //Replace "TOKEN_HERE" with your bots token.
 ```
-Invite your bot to your discord server using the link given. Make sure to replace <client-id> with your bots [client id](https://discordapp.com/developers/applications/me). 
+Invite your bot to your discord server using the link given. Make sure to replace `<client-id>` with your bots [client id](https://discordapp.com/developers/applications/me). 
 ```
 https://discordapp.com/oauth2/authorize?&client_id=<CLIENT ID>&scope=bot&permissions=0
 ```
