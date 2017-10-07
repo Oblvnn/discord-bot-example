@@ -36,4 +36,4 @@ $ node app.js
 > [Node](https://nodejs.org/) - Used to run node apps and modules.
 
 ## Author
-- **OblivionSan** - [@OblivionSan](https://github.com/OblivionSan)
+- **OblivionSan** - [@OblivionSan](https://twitter.com/OblivionSan) | [Discord Server](https://discord.gg/kxNeGRC) | [Website](https://oblivionsan.tk)
