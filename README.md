@@ -8,11 +8,13 @@ Simple code examples for Discord.js
 $ git clone https://github.com/OblivionSan/discord-bot-example.git
 $ npm install
 ```
-Create a discord bot token [here](https://discordapp.com/developers/applications/me) and replace it where you see **TOKEN_HERE**.
+Create a discord bot token [here](https://discordapp.com/developers/applications/me) and replace it where you see **TOKEN_HERE**, replace **PREFIX_HERE** to your prefered prefix.
 ```js
-client.login(config.token); //Replace "TOKEN_HERE" in config.json with your bots token.
+const prefix = config.prefix; //Reads prefix line in config.json.
+
+client.login(config.token); //Reads token line in config.json.
 ```
-Config.json example
+**config.json** example
 ```json
 {
   "prefix" : "PREFIX_HERE",
