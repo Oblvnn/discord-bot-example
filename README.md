@@ -25,7 +25,7 @@ Invite your bot to your discord server using the link given. Make sure to replac
 ```
 https://discordapp.com/oauth2/authorize?&client_id=<CLIENT ID>&scope=bot&permissions=0
 ```
-To start your bot up, simply open up command prompt in your bots dir and then type the following.
+To start your bot, simply open up command prompt in your bots directory and then type the following.
 ```
 $ node app.js
 ```
