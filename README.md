@@ -23,7 +23,7 @@ $ node app.js
 
 ## Built with
 > [Discord.js](https://discord.js.org/#/) - Node Module used.
-> [Node](https://nodejs.org/) - Used to run node apps and modules.
+> \n[Node](https://nodejs.org/) - Used to run node apps and modules.
 
 ## Author
 - **OblivionSan** - [@OblivionSan](https://github.com/OblivionSan)
