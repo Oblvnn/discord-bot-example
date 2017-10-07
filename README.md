@@ -1,6 +1,6 @@
 # discord-bot-example
 Simple code examples for Discord.js
-You must have [Node](https://nodejs.org/) installed to run a discord.js bot.
+> You must have [Node](https://nodejs.org/) installed to run a discord.js bot.
 
 ## Getting started
 
