@@ -1,7 +1,9 @@
 const Discord = require('discord.js'); //Make sure to install discord.js using NPM.
 const client = new Discord.Client();
 
-const prefix = '!'; //Change the prefix to whatever you want to use on your bot.
+const config - require('./config.json');
+
+const prefix = config.prefix; //You can change the prefix from config.json.
 
 function cmd(str, msg) { //Function for commands.
     return msg.content.startsWith(prefix + str);
@@ -18,4 +20,4 @@ client.on('message', message => {
   }
 
 })
-client.login(TOKEN_HERE); //Replace "TOKEN_HERE" with your bots token.
+client.login(config.token); //Replace "TOKEN_HERE" in config.json with your bots token.
