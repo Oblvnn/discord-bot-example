@@ -9,7 +9,7 @@ $ git clone https://github.com/OblivionSan/discord-bot-example.git
 $ npm install
 ```
 Create a discord bot token [here](https://discordapp.com/developers/applications/me) and replace it where you see **TOKEN_HERE**.
-```
+```js
 client.login(TOKEN_HERE); //Replace "TOKEN_HERE" with your bots token.
 ```
 Invite your bot to your discord server using the link given. Make sure to replace <client-id> with your bots [client id](https://discordapp.com/developers/applications/me). 
