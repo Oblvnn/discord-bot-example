@@ -10,7 +10,7 @@ function cmd(str, msg) { //Function for commands.
 
 client.on('ready', () => {
 	console.log(`[Bot is online | Node: ${process.version} | Discord.js: ${Discord.version}]\nConnected as: ${client.user.username} (ID: ${client.user.id})\nGuilds Connected: ${client.guilds.size}`); //Sends statistics to console.
-	client.user.setGame(`prefix = ${config.prefix} | ${client.guilds.size} Servers`); //SetGame shows prefix and guild size.
+	client.user.setGame(`prefix = ${prefix} | ${client.guilds.size} Servers`); //SetGame shows prefix and guild size.
 });
 
 client.on('message', message => {
