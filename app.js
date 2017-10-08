@@ -19,7 +19,7 @@ client.on('message', message => {
 	const args = message.content.split(/[ ]+/); //Defines args.
 
 	if (cmd('ping', message)) {
-		message.channel.send(`API Lantancy: **${Date.now() - message.createdTimestamp}**ms`);
+		message.channel.send(`🏓 Pong! - API Lantancy: **${Date.now() - message.createdTimestamp}**ms`);
 	}
 
 	if (cmd('hex', message)) {
