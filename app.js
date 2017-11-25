@@ -19,6 +19,16 @@ client.on('ready', () => {
     client.user.setGame(`prefix = ${config.prefix} | ${client.guilds.size} Servers`); //SetGame shows prefix and guild size.
 });
 
+client.on('guildCreate', guild => {
+	console.log(`New guild joined: ${guild.name} (id: ${guild.id}). This guild has ${guild.memberCount} members!`);
+	client.user.setGame(`prefix = ${config.prefix} | ${client.guilds.size} Servers`; //Updates setGame.
+});
+
+client.on("guildDelete", guild => {
+	console.log(`${client.user.username} has been removed from: ${guild.name} (id: ${guild.id})`);
+	client.user.setGame(`prefix = ${config.prefix} | ${client.guilds.size} Servers`);//Updates setGame.
+});
+
 client.on('message', message => {
     if (message.author.bot) return; //If author is a bot returns nothing.
     if (message.channel.type === 'dm') return; //Disables commands in dms.
