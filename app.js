@@ -21,7 +21,7 @@ client.on('ready', () => {
 
 client.on('guildCreate', guild => {
 	console.log(`New guild joined: ${guild.name} (id: ${guild.id}). This guild has ${guild.memberCount} members!`);
-	client.user.setGame(`prefix = ${config.prefix} | ${client.guilds.size} Servers`; //Updates setGame.
+	client.user.setGame(`prefix = ${config.prefix} | ${client.guilds.size} Servers`); //Updates setGame.
 });
 
 client.on("guildDelete", guild => {
