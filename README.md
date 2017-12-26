@@ -1,5 +1,8 @@
 # Discord bot example written in JavaScript using Discord.JS
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c76dc9b60dc84e7fa307415680f8d604)](https://www.codacy.com/app/OblivionSan/discord-bot-example?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OblivionSan/discord-bot-example&amp;utm_campaign=Badge_Grade)
+[![GitHub License](https://img.shields.io/github/license/OblivionSan/discord-bot-example.svg?style=flat-square)](https://github.com/OblivionSan/discord-bot-example/blob/master/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/OblivionSan/discord-bot-example.svg?style=flat-square)](https://github.com/OblivionSan/discord-bot-example/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/OblivionSan/discord-bot-example.svg?style=flat-square)](https://github.com/OblivionSan/discord-bot-example/network)
+[![GitHub issues](https://img.shields.io/github/issues/OblivionSan/discord-bot-example.svg?style=flat-square)](https://github.com/OblivionSan/discord-bot-example/issues)
 
 Simple code examples for Discord.js
 > You must have [Node](https://nodejs.org/) installed to run a discord.js bot.
