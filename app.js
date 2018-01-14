@@ -16,17 +16,17 @@ function getRandomInt(min, max) {
 
 client.on('ready', () => {
     console.log(`[Bot is online | Node: ${process.version} | Discord.js: ${Discord.version}]\nConnected as: ${client.user.username} (ID: ${client.user.id})\nGuilds Connected: ${client.guilds.size}`); //Sends statistics to console.
-    client.user.setGame(`prefix = ${config.prefix} | ${client.guilds.size} Servers`); //SetGame shows prefix and guild size.
+    client.user.setActivity(`${client.guilds.size} Servers | prefix = ${config.prefix}`, {type: 'WATCHING'}); //SetGame shows prefix and guild size.
 });
 
 client.on('guildCreate', guild => {
 	console.log(`New guild joined: ${guild.name} (id: ${guild.id}). This guild has ${guild.memberCount} members!`);
-	client.user.setGame(`prefix = ${config.prefix} | ${client.guilds.size} Servers`); //Updates setGame.
+	client.user.setActivity(`${client.guilds.size} Servers | prefix = ${config.prefix}`, {type: 'WATCHING'}); //Updates setActivity.
 });
 
 client.on("guildDelete", guild => {
 	console.log(`${client.user.username} has been removed from: ${guild.name} (id: ${guild.id})`);
-	client.user.setGame(`prefix = ${config.prefix} | ${client.guilds.size} Servers`);//Updates setGame.
+	client.user.setActivity(`${client.guilds.size} Servers | prefix = ${config.prefix}`, {type: 'WATCHING'}); //Updates setActivity.
 });
 
 client.on('message', message => {
